@@ -42,7 +42,3 @@ describe("Vampire", function() {
     });
   });
 });
-
-console.log(numberOfVampiresFromOriginal(offspring1));
-console.log(numberOfVampiresFromOriginal(offspring4));
-console.log(numberOfVampiresFromOriginal(rootVampire));

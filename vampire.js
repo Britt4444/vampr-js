@@ -32,7 +32,7 @@ class Vampire {
 
   // Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
   isMoreSeniorThan(vampire) {
-    return vampire.numberOfVampiresFromOriginal > this.numberOfVampiresFromOriginal
+    return vampire.numberOfVampiresFromOriginal > this.numberOfVampiresFromOriginal;
   }
 
   /** Stretch **/
@@ -42,8 +42,8 @@ class Vampire {
   // For example:
   // * when comparing Ansel and Sarah, Ansel is the closest common anscestor.
   // * when comparing Ansel and Andrew, Ansel is the closest common anscestor.
-  closestCommonAncestor(vampire) {
-  }
+  // closestCommonAncestor(vampire) {
+  // }
 }
 
 module.exports = Vampire;
